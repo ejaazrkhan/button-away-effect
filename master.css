@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b, #ff6a00);
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.btn:hover {
+  background: linear-gradient(135deg, #ff6a00, #ff4b2b, #ff416c);
+}
